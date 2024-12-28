@@ -9,10 +9,10 @@ const port = process.env.PORT || 2000;
 const streams = {
   visual:
     process.env.VISUAL_STREAM_URL ||
-    "rtsp://admin:Abc.12345@192.168.1.64/ch0/stream0",
+    "rtsp://admin:Abc.12345@192.168.31.60V/ch0/stream0",
   thermal:
     process.env.THERMAL_STREAM_URL ||
-    "rtsp://admin:Abc.12345@192.168.1.64/ch1/stream0",
+    "rtsp://admin:Abc.12345@192.168.31.60/ch1/stream0",
 };
 
 console.log("Starting server with configuration:");

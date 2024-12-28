@@ -21,8 +21,8 @@ EXPOSE 2000
 
 # Define environment variables
 ENV PORT=2000
-ENV VISUAL_STREAM_URL=rtsp://rtspstream:5306c5e1c41fdb6cd55de232f15f0aca@zephyr.rtsp.stream/movie
-ENV THERMAL_STREAM_URL=rtsp://rtspstream:e0d9feac5e5219298d8e8bd9108650a0@zephyr.rtsp.stream/pattern
+ENV STREAM_URL=rtsp://rtspstream:5306c5e1c41fdb6cd55de232f15f0aca@zephyr.rtsp.stream/movie
+ENV THERMAL_URL=rtsp://rtspstream:e0d9feac5e5219298d8e8bd9108650a0@zephyr.rtsp.stream/pattern
 
 # Run the application
 CMD ["node", "index.js"]
